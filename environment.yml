@@ -1,0 +1,24 @@
+name: workshop
+channels:
+  - veloxchem
+  - conda-forge
+dependencies:
+  - libblas * *mkl
+  - mpi * *openmpi
+  - veloxchem
+  - pytest
+  - scipy
+  - numpy
+  - ipywidgets
+  - ipympl
+  - matplotlib
+  - jupyterlab
+  - plotly
+  - sympy
+  - python=3.10
+  - qcelemental
+  - openbabel
+  - pip
+  - pip:
+      - nglview>=3.0.1
+      - py3Dmol
